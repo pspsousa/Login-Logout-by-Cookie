@@ -16,6 +16,6 @@ public class LoginServlet extends HttpServlet {
         Cookie sessionCookie = new Cookie("user_session", username);
         sessionCookie.setMaxAge(3600); 
         response.addCookie(sessionCookie);
-        response.sendRedirect("profile");
+        response.sendRedirect("profile.html");
     }
 }
