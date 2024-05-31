@@ -1,0 +1,43 @@
+/* styles.css */
+
+/* Estilo para o container */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Estilo para os campos de entrada */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Estilo para o botão */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Estilo para o link de logout */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Estilo para o link de logout ao passar o mouse */
+a:hover {
+    text-decoration: underline;
+}
